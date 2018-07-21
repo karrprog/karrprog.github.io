@@ -1,11 +1,37 @@
 body {
     background-image: url(Pictures/Karr1.JPG); 
     background-repeat: no-repeat;
-    background-size: 1950px 950px;
+    background-size: 1950px 975px;
       
 }
 
+#button {
+    
+    position: absolute;
+    bottom: 20px;
+    left: 800px;
+}
+
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 300px;
+    font-size: 48;
+}
+.btn-xl {
+    
+    padding: 2.5rem 4.5rem;
+    text-align: center;
+}
+
+.btn-primary {
+    
+    background-color: aqua;
+}
 
 h1 {
-    font-size: 28px;
+    font-size: 100px;
+    text-align: center;
+    text-transform: capitalize;
 }
+
