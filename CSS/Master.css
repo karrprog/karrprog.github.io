@@ -1,0 +1,79 @@
+.container{
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* grid-template-columns: auto 1fr 2fr; */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  grid-template-rows: auto 1fr;
+  /* justify-items: end;
+  align-items: start; */
+}
+.zone {
+    cursor:pointer;
+    /* display:inline-block; */
+    text-align: center;
+    font-size:10em;
+    border-radius:4px;
+    border:1px solid #969595;
+    transition: all 0.3s linear;
+    image-width: 80%;
+    image-height: auto;
+    image-margin: auto;
+}
+
+.wtf{
+  width: 90%;
+  height: 85%;
+  margin: auto;
+}
+
+.zone:hover {
+    border: 2px solid #fff;
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.back{
+  /* background-image: url(../Images/Wood_background.jpg); */
+  background-image: url(../Images/Background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.ldlg{
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  padding-top: 0;
+}
+
+.con{
+  text-align: center;
+  color: white;
+  margin-top: 1em;
+}
+
+.con1{
+  text-align: center;
+  margin-top: 1em;
+}
+
+.nav-item{
+  font-size: 1.5em;
+  color: white;
+  padding: .5em;
+}
+
+.prods{
+  background-color: #969595;
+}
+
+.purple{
+  width: 50%;
+  height: auto;
+  margin: auto;
+  justify-content: center;
+
+}
